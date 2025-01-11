@@ -22,9 +22,10 @@ function verificaCampos(event) {
       localStorage.setItem("usuario", JSON.stringify(lis));
       window.location.href = "admi.html";
     } else {
-      alert("Você é louco");
+      alert("Você está logado");
       localStorage.setItem("usuario", JSON.stringify(lis));
-      window.location.href = "admi.html";
+      window.location.href = "index.html";
+      
     }
   }
   console.log(lis);
